@@ -1,0 +1,92 @@
+
+body {
+    font-family: "Arial"
+}
+
+.heading {
+    position: absolute;
+    left: 430px
+}
+
+#individ {
+    position: absolute;
+    left: 360px;
+    top: 120px;
+    width: 600px;
+    height: 40px
+}
+
+#text {
+    position: absolute;
+    left: 360px;
+    top: 190px;
+    width: 600px;
+    height: 100px
+}
+
+.send {
+    cursor: pointer;
+    position: absolute;
+    left: 600px;
+    top: 300px
+}
+
+.list {
+    position: absolute;
+    left: 320px;
+    top: 330px
+}
+
+.delete {
+    position: absolute;
+    cursor: pointer;
+    left: 580px
+}
+
+.li {
+    width: 480px;
+    background: #eee;
+    margin-bottom: 1em
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 10
+}
+
+nav li {
+    margin-right: 50px
+}
+
+nav a {
+    color: #000;
+    text-decoration: none
+}
+
+#main-menu {
+    position: relative;
+    background-color: #333333;
+    opacity: 0.8;
+    width: 800px;
+    top: 50px;
+    left: 300px
+}
+
+.option {
+    position: relative;
+    top: 100px;
+    left: 300px
+}
+
+.option-name {
+    color: white
+}
+
+#create-button { 
+    color: white;
+    background: green;
+    height: 60px;
+    weight: 100px
+}
+

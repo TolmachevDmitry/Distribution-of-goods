@@ -1,0 +1,153 @@
+body {
+    font-family: "Arial"
+}
+
+#data-list { 
+    position: relative;
+    top: 20px;
+    left: 100px;
+    list-style-type: none
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 10
+}
+
+nav li {
+    margin-right: 50px
+}
+
+nav a {
+    color: #000;
+    text-decoration: none
+}
+
+#main-menu {
+    position: relative;
+    background-color: #333333;
+    opacity: 0.8;
+    width: 800px;
+    top: 50px
+}
+
+#app {
+    position: relative;
+    left: 300px;
+    width: 800px
+}
+
+.option {
+    position: relative;
+    top: 100px;
+    max-width: 800px;
+}
+
+.option-name {
+    color: white
+}
+
+#create-button { 
+    position: relative;
+    left: 150px;
+    color: white;
+    background: #333333;
+    border: 0;
+    height: 30px;
+    width: 500px
+}
+
+#add {
+    color: white;
+    background: #333333;
+    border: 0;
+    height: 30px;
+    width: 130px
+}
+
+#cancel {
+    position: relative;
+    color: white;
+    background: #706f6f;
+    border: 0;
+    height: 30px;
+    width: 130px;
+    left: 20px
+}
+
+#creater-section {
+    position: relative;
+    top: 20px;
+    padding-bottom: 20px
+}
+
+.default-parameter {
+    padding-bottom: 20px
+}
+
+.detailed-information {
+    position: relative;
+    left: 80px
+}
+
+#user-paremeters-list {
+    padding-bottom: 50px;
+}
+
+.user-parameter {
+    padding-bottom: 20px;
+}
+
+.user-parameter-key {
+    width: 300px;
+    height: 30px
+}
+
+.user-parameter-value {
+    position: relative;
+    left: 30px;
+    width: 300px;
+    height: 30px
+}
+
+.default-parameter-value {
+    position: relative;
+    left: 30px;
+    width: 300px;
+    height: 30px
+}
+
+#add-parameter-button {
+    color: white;
+    background: #706f6f;
+    width: 200px;
+    height: 30px;
+    border: 0
+}
+
+#datas {
+    max-width: 800px
+}
+
+.entity-exemplar {
+    position: relative;
+    left: -40px;
+    width: 500px
+}
+
+.exemplar-tittle-block {
+    position: relative;
+    background: black;
+    opacity: 0.5;
+    left: 50px;
+    width: 500px;
+    height: 50px
+}
+
+.exemplar-tittle-text {
+    position: relative;
+    margin-left: 45%;
+    top: 15px;
+    color: white;
+}

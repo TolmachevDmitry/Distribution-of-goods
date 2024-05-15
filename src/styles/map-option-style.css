@@ -1,0 +1,74 @@
+@import url("~leaflet/dist/leaflet.css");
+.leaflet-container {
+    height: 50vh;
+    width: 25vw;
+}
+
+#map-zone {
+    position: absolute;
+    left: 400px;
+    max-width: 150px
+}
+
+#change-mod-editing {
+    position: relative;
+    top: 20px;
+    width: 400px;
+}
+
+/* Перенести в другой файл */
+#build-disttransportation-plan {
+    width: 300px;
+    height: 30px;
+    background: #000;
+    color: white
+}
+
+#list-section {
+    max-width: 380px
+}
+
+.map-object-list {
+    color: white
+}
+
+.map-object-tittle-1 {
+    height: 30px;
+    background: #333333;
+}
+
+.map-object-tittle-2 {
+    position: relative;
+    left: 20px;
+    top: 5px
+}
+
+.map-object-list ul {
+    display: block;
+    width: 100%;
+    /* background: gray; */
+    color: black;
+    padding: 0;
+    margin: 10px 0 0;
+    list-style: none;
+    max-height: 90px;
+    overflow: hidden auto;
+}
+
+.map-object-list .dropdown_block {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+
+.map-object-list li {
+    display: lock;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
