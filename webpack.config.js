@@ -14,7 +14,7 @@ module.exports = {
   },
 
   devServer: {
-    contentBase: path.join(__dirname, './build/build.js'),
+    contentBase: path.join(__dirname, "./build/build.js"),
     compress: true,
     port: 9000,
   },
@@ -43,7 +43,7 @@ module.exports = {
           }
         }
       },
-        {
+      {
         test: /\.css$/,
         use: [
           {
@@ -54,7 +54,7 @@ module.exports = {
           },
           "css-loader"
         ],
-      },
+      }
     ]
   },
 

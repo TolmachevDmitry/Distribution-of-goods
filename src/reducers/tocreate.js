@@ -1,7 +1,7 @@
 "use strict"
 
 const initialState = {
-    tocreate : { isCreating : false, defaultParameters : {name: ''}, userParameters : [] }
+    tocreate : { isCreating : false, defaultParameters : {name: '', goods: []}, userParameters : [] }
 };
 
 export const tocreateReducer = (state = initialState, action) => {
@@ -10,7 +10,7 @@ export const tocreateReducer = (state = initialState, action) => {
         case 'OPEN_TOCREATE': {
             return {
                 ...state,
-                tocreate: { isCreating: true, defaultParameters: {name: ''}, userParameters: [] }
+                tocreate: action.txt
             }
         }
 
@@ -28,10 +28,17 @@ export const tocreateReducer = (state = initialState, action) => {
             }
         }
 
+        case 'ADD_GOOD': {
+            return {
+                ...state,
+                tocreateReducer: action.txt
+            }
+        }
+
         case 'CLEAR_TOCREATE': {
             return {
                 ...state,
-                tocreate: { isCreating: false, defaultParameters: {name: ''}, userParameters: [] }
+                tocreate: { isCreating: false, defaultParameters: {name: '', goods: []}, userParameters: [] }
             }
         }
 
